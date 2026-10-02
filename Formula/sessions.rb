@@ -5,23 +5,23 @@ class Sessions < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.0/sessions-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "082aba51f1615974f17110b16b6ada820c2bfc02d142a016c391ffaedc39e2b8"
+      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.1/sessions-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d0cd4e7783ff72c489b527c988d24ec46140383dd398098a9f28b41f29d918bf"
     end
     on_intel do
-      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.0/sessions-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a4516ba05e90d6180a1e449e284e0f16570d2fa978cd64e93d1e5c0dd6167364"
+      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.1/sessions-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "293ec40c93205f87047952552a26088c71acd61f764a8b28b4cadf829d37e331"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.0/sessions-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "50aac69693f9018782c429e7ac544e32e960f9c6d274d0e4fbca02a27de7497c"
+      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.1/sessions-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "674905cbbdf08abe82d884b3d3d926ed9c8d1b760f5ba23d3426dbbc10fbe536"
     end
     on_intel do
-      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.0/sessions-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a511ba7eae092c08896a11a5c7e2c4fb5bf8dd6f57b02d9a7fba1deb0185f264"
+      url "https://github.com/JoyoMDEV/session-tui/releases/download/v0.1.1/sessions-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6360733b48513f5f559a0b8996a0b879bebf2c42401ffea07581da431a445ce7"
     end
   end
 
