@@ -1,7 +1,6 @@
 class Sessions < Formula
   desc "Terminal UI to browse and resume saved Claude Code sessions"
   homepage "https://github.com/JoyoMDEV/session-tui"
-  version "0.1.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
